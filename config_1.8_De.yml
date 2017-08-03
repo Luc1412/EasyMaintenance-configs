@@ -1,0 +1,132 @@
+# ##############################################################################
+# ############################# THANK YOU FOR USING ############################
+# ######################### EasyMaintenace BY LUC1412 ##########################
+# ##############################################################################
+# ################################ MAIN CONFIG #################################
+# ##############################################################################
+#
+# Wenn es auf true ist kannst du mich unterstützen, weil ich Informationen über die Nutzung des Plugins bekomme.
+Metrics: true
+#
+# Wenn es auf true ist überprüft das Plugin automatisch ob eine neue version verfügbar ist und benachrigtigt dich dann.
+Updater: true
+#
+DebugLog: true
+#
+# Setzte die Art des Prefix!
+# 1 = "&8|&1Easy&4Maintenance&8| &3->&r "
+# 2 = "&7[&1Easy&4Maintenance&7]&r "
+# 3 = "&7(&1Easy&4Maintenance&7)&r "
+# 4 = "&2【&1Easy&4Maintenance&2】&r "
+PrefixStyle: 1
+#
+# Wenn es auf true ist, kannst du ein "maintenance-icon.png" Datei in deinen plugin/EasyMainetancne Ordner reinlegen.
+MaintenanceServerIcon: false
+#
+# Setzte den standert Countdown in Sekunden wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt. 
+DefaultCountdown: 10
+#
+# Wenn es auf true ist kannst du in der Actionbar sehen wie lange es dauert bis die Wartungsarbeiten starten.
+SendActionBar: true
+#
+# Wenn es auf true ist kannst du den Fortschritt des Countdowns und eine Nachricht in der Bossbar sehen
+# !!!DIESE FUNKTION IST NUR IN DER 1.9+ VERFÜGBAR!!!
+BossBar: true
+BossBarSettings:
+  # Stelle die Farbe der BossBar ein. Verfügbare Farben:
+  # BLUE
+  # GREEN
+  # PINK
+  # PURPLE
+  # RED
+  # WHITE
+  # YELLOW
+  BossBarColor: RED
+  # Stelle die Art der Bossbar ein. Verfügbare Arten:
+  # SOLID
+  # SEGMENTED_6
+  # SEGMENTED_10
+  # SEGMENTED_12
+  # SEGMENTED_20
+  BossBarStyle: SEGMENTED_20
+  # Aktiviere die BossBar Flags
+  BossBarFlags:
+    # Wenn es auf true ist, entsteht Nebel um den Spielern.
+    CreateFog: false
+    # Wenn es auf true ist, verdunkelt sich der Himmel und den Spielern.
+    DarkenSky: false
+#
+# Personalisiere alle Nachrichten. Du kannst &-Farbcodes verwenden:
+# &0 - Schwarz
+# &1 – Dunkel Blau
+# &2 – Dunkel Grün
+# &3 – Dunkel Aqua
+# &4 – Dunkel Rot
+# &5 – Dunkel Lila
+# &6 - Gold
+# &7 - Grau
+# &8 - Dunkel Grau
+# &9 - Blau
+# &a - Grün
+# &b - Aqua
+# &c - Rot
+# &d – Helles Lila
+# &e - Gelb
+# &f - Weiß
+# &k - Verschleiert
+# &l – Fett gedruckt
+# &m - Durchgestrichen
+# &n - Unterstrichen
+# &o – Kursiv gedruckt
+# &r – Farbcodes zurücksetzen
+Messages:
+  ReloadConfig: '&2Die Config würde erfolgreich neu geladen!'
+  Usage: '&4Bittw nutze /EasyMaintenance hell für Hilfe!'
+  NoPermission: '&4Du hast keine Rechte dieses Kommando auszuführwn!'
+  KickMessage: '&4Der Server ist derzeit in Wartungsarbeiten!'
+  InvalidNumber: '&4Die Zahl ist ungültig!'
+  ToggleOn: '&6The Server ist nun in Wartungsarbeiten! &4Nur Spieler mit den „em.bypass“ Rechten können noch auf den Server!'
+  ToggleOff: '&6Der Server ist nun wieder im normalen Modus! &4Alle Spieler können nun auf den Server kommen!'
+  SkipTimeToHigh: '&4Die Skip Zeit ist höher als der Countdown!'
+  # In TimeWasSkipped kannst du %seconds% nutzen. Es wird mit den Sekunden die übersprungen werden ersetzt..
+  TimeWasSkipped: '&2Der Countdown würde erfolgreich um %seconds% Sekunden verkürtzt!'
+  # In BossBar kannst du %ftime% nutzen. Es wird mit der formatieren Zeit bis die Wartungsarbeiten starten ersetzt. Formatierung: hh:mm:ss
+  BossBar: '&6&lDie Wartungsarbeiten starten in %ftime%'
+  ServerPingName: '&1&lEasy&4&lMaintenance'
+  MaintenanceMOTD: '&4&lDer Server ist derzeit in &1&lEasy&4&lMaintenance&4&l!'
+#
+  Countdown:
+      CountdownIsNotRunning: '&4Der Countdown läuft derzeit nicht!'
+      CountdownIsRunning: '&4Der Countdown läuft schon!'
+      CountdownStopped: '&4Der Countdown für die Wartungsarbeiten wurde gestoppt!'
+# In CountdownMinutes/Seconds/Seconds1 kannst du %time% nutzen. Es wird mit den Sekunden bis der Countdown startet ersetzt.
+      CountdownMinutes: '&eDie Wartungsarbeiten starten in&6 %time% &eMinuten!'
+      CountdownSeconds: '&eDie Wartungsarbeiten starten in&6 %time% & Sekunden!'
+      CountdownSeconds1: '&eDie Wartungsarbeiten starten in&6 %time% &eSekunden!'
+#
+  ActionBar:
+# In CountdownRunning kannst du %ftime% nutzen. Es wird mit der formatieren Zeit bis die Wartungsarbeiten starten ersetzt. Formatierung: hh:mm:ss
+      CountdownRunning: '&2&n&lDie Wartungsarbeiten starten in %ftime%'
+      CountdownStopped: '&4&n&l&mDie Wartungsarbeiten starten in XX:XX'
+#
+  ListHoverText:
+    Line1: '&7&l«======================================»'
+    Line2: '&7&l| &6&lDer Server ist derzeit in &4&lWartungsarbeiten                        &7&l|'
+    Line3: '&7&l| &6&lDu kannst Informationen über                                      &7&l|'
+    Line4: '&7&l| &6&ldie Wartungsarbeiten in unserem Forum bekommen: &9&lforum.luc1412.net &7&l|'
+    Line5: '&7&l«======================================»'
+#
+# Individualisiere alle Sounds. Bitte nutze einen von:
+# IN 1.8.x: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+# IN 1.9.x - 1.12:  https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# Die Groß- und Kleinschreibung ist unwichtig.
+# Der 2. Parameter ist der Pitch/die Geschwindigkeit des Sounds.
+# 1 = normale Geschwindigkeit
+# 0.5-0.9 = langsamer
+# 1.1-1.5 = schneller
+# Du musst es so nutzen: 'Dein_Sound:Pitch'
+Sounds:
+  CountdownRunning: 'ORB_PICKUP:0.5'
+  CountdownStopped: 'ANVIL_DESTROY:0.7'
+  MaintenanceStart: 'Enderdragon_Death:1'
+  MaintenanceEnd: 'WITHER_DEATH:0.5'
