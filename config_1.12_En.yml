@@ -1,17 +1,14 @@
 # ##############################################################################
 # ############################# THANK YOU FOR USING ############################
-# ######################### EasyMaintenace BY LUC1412 ##########################
+# ######################### EasyMaintenance BY LUC1412 ##########################
 # ##############################################################################
 # ################################ MAIN CONFIG #################################
 # ##############################################################################
 #
-# If its true, you support me, because I can get informations about the usage of this Plugin.
-Metrics: true
-#
 # If its true, its automatically check for a new Version of this Plugin and notice you.
 Updater: true
 #
-DebugLog: true
+DebugLog: false
 #
 # Set the Style of the Prefix.
 # 1 = "&8|&1Easy&4Maintenance&8| &3->&r "
@@ -20,7 +17,7 @@ DebugLog: true
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
 PrefixStyle: 1
 #
-# If its true, you can put a "maintenance-icon.png" in your plugin/EasyMaintenance folder!
+# If its true, you can put a "maintenance-icon.png" in your plugins/EasyMaintenance folder!
 MaintenanceServerIcon: false
 #
 # Set the default Countdown in Seconds if you didn´t add arguments in your command. If you use only /EasyMaintenance toggle.
@@ -49,12 +46,6 @@ BossBarSettings:
   # SEGMENTED_12
   # SEGMENTED_20
   BossBarStyle: SEGMENTED_20
-  # Enable BossBarFlags
-  BossBarFlags:
-    # If its true, it will creates fog around the Player
-    CreateFog: false
-    # If its true, it will darken the Sky around the Player.
-    DarkenSky: false
 #
 # Customize all messages. You can use &-Colorcodes
 # &0 - Black

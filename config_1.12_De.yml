@@ -1,35 +1,33 @@
 # ##############################################################################
 # ############################# THANK YOU FOR USING ############################
-# ######################### EasyMaintenace BY LUC1412 ##########################
+# ######################### EasyMaintenance BY LUC1412 ##########################
 # ##############################################################################
 # ################################ MAIN CONFIG #################################
 # ##############################################################################
 #
-# Wenn es auf true ist kannst du mich unterstützen, weil ich Informationen über die Nutzung des Plugins bekomme.
-Metrics: true
 #
-# Wenn es auf true ist überprüft das Plugin automatisch ob eine neue version verfügbar ist und benachrigtigt dich dann.
+# Wenn es auf true ist überprüft das Plugin automatisch, ob eine neue Version verfügbar ist und benachrichtigt dich dann.
 Updater: true
 #
-DebugLog: true
+DebugLog: false
 #
-# Setzte die Art des Prefix!
+# Setzte die Art des Präfixes!
 # 1 = "&8|&1Easy&4Maintenance&8| &3->&r "
-# 2 = "&7[&1Easy&4Maintenance&7]&r "
-# 3 = "&7(&1Easy&4Maintenance&7)&r "
+# 2 = "&7[&1Easy&4Maintenance&7] &r "
+# 3 = "&7(&1Easy&4Maintenance&7) &r "
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
 PrefixStyle: 1
 #
-# Wenn es auf true ist, kannst du ein "maintenance-icon.png" Datei in deinen plugin/EasyMainetancne Ordner reinlegen.
+# Wenn es auf true ist, kannst du eine "maintenance-icon.png" Datei in deinen plugins/EasyMaintenance Ordner reinlegen.
 MaintenanceServerIcon: false
 #
-# Setzte den standert Countdown in Sekunden wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt. 
+# Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt. 
 DefaultCountdown: 10
 #
 # Wenn es auf true ist kannst du in der Actionbar sehen wie lange es dauert bis die Wartungsarbeiten starten.
 SendActionBar: true
 #
-# Wenn es auf true ist kannst du den Fortschritt des Countdowns und eine Nachricht in der Bossbar sehen
+# Wenn es auf true ist kannst du den Fortschritt des Countdowns und eine Nachricht in der BossBar sehen
 # !!!DIESE FUNKTION IST NUR IN DER 1.9+ VERFÜGBAR!!!
 BossBar: true
 BossBarSettings:
@@ -42,7 +40,7 @@ BossBarSettings:
   # WHITE
   # YELLOW
   BossBarColor: RED
-  # Stelle die Art der Bossbar ein. Verfügbare Arten:
+  # Stelle die Art der BossBar ein. Verfügbare Arten:
   # SOLID
   # SEGMENTED_6
   # SEGMENTED_10
@@ -81,15 +79,15 @@ BossBarSettings:
 # &r – Farbcodes zurücksetzen
 Messages:
   ReloadConfig: '&2Die Config würde erfolgreich neu geladen!'
-  Usage: '&4Bittw nutze /EasyMaintenance hell für Hilfe!'
-  NoPermission: '&4Du hast keine Rechte dieses Kommando auszuführwn!'
+  Usage: '&4Bitte nutze /EasyMaintenance hell für Hilfe!'
+  NoPermission: '&4Du hast keine Rechte dieses Kommando auszuführen!'
   KickMessage: '&4Der Server ist derzeit in Wartungsarbeiten!'
   InvalidNumber: '&4Die Zahl ist ungültig!'
   ToggleOn: '&6The Server ist nun in Wartungsarbeiten! &4Nur Spieler mit den „em.bypass“ Rechten können noch auf den Server!'
   ToggleOff: '&6Der Server ist nun wieder im normalen Modus! &4Alle Spieler können nun auf den Server kommen!'
   SkipTimeToHigh: '&4Die Skip Zeit ist höher als der Countdown!'
-  # In TimeWasSkipped kannst du %seconds% nutzen. Es wird mit den Sekunden die übersprungen werden ersetzt..
-  TimeWasSkipped: '&2Der Countdown würde erfolgreich um %seconds% Sekunden verkürtzt!'
+  # In TimeWasSkipped kannst du %seconds% nutzen. Es wird mit den Sekunden die übersprungen werden ersetzt.
+  TimeWasSkipped: '&2Der Countdown würde erfolgreich um %seconds% Sekunden verkürzt!'
   # In BossBar kannst du %ftime% nutzen. Es wird mit der formatieren Zeit bis die Wartungsarbeiten starten ersetzt. Formatierung: hh:mm:ss
   BossBar: '&6&lDie Wartungsarbeiten starten in %ftime%'
   ServerPingName: '&1&lEasy&4&lMaintenance'
