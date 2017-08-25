@@ -18,8 +18,16 @@ DebugLog: false
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
 PrefixStyle: 1
 #
+# Setzte den Style der Nachrichten!
+# 1 = Schwarz/Weiß --- Modern und einfach
+# 2 = Dunkelblau/Dunkelrot --- Der EasyMaintenance Style
+# 3 = Schwarz/Dunkelrot --- Modern and Mächtig
+# 4 = Dunkelblau/Dunkelgrün --- Modern and Entspannt
+# 5 = Dunkelrot/Dunkelgrün --- Weihnachts Style
+MessagesStyle: 1
+#
 # Wenn es auf true ist, kannst du eine "maintenance-icon.png" Datei in deinen plugins/EasyMaintenance Ordner reinlegen.
-MaintenanceServerIcon: false
+MaintenanceServerIcon: true
 #
 # Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt. 
 DefaultCountdown: 10

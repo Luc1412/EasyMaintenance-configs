@@ -17,6 +17,14 @@ DebugLog: false
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
 PrefixStyle: 1
 #
+# Set the Style of the messages.
+# 1 = Black/White --- Modern and simple
+# 2 = DarkBlue/DarkRed --- The EasyMaintenance Style
+# 3 = Black/DarkRed --- Modern and Powerful
+# 4 = DarkBlue/DarkGreen --- Modern and Relaxing
+# 5 = DarkRed/DarkGreen --- Santa Style
+MessagesStyle: 1
+#
 # If its true, you can put a "maintenance-icon.png" in your plugins/EasyMaintenance folder!
 MaintenanceServerIcon: false
 #
