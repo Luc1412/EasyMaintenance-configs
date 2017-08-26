@@ -25,6 +25,29 @@ PrefixStyle: 1
 # 5 = DarkRed/DarkGreen --- Santa Style
 MessagesStyle: 1
 #
+GUI:
+  #
+  # Open the GUI with /em. This is an easy way to control the plugin.
+  Enabled: true
+  #
+  # 0 = White
+  # 1 = Orange
+  # 2 = Magenta
+  # 3 = Light Blue
+  # 4 = Yellow
+  # 5 = Lime
+  # 6 = Pink
+  # 7 = Gray
+  # 8 = Light Gray
+  # 9 = Cyan
+  # 10 = Purple
+  # 11 = Blue
+  # 12 = Brown
+  # 13 = Green
+  # 14 = Red
+  # 15 = Black
+  DesignItemColor: 7
+#
 # If its true, you can put a "maintenance-icon.png" in your plugins/EasyMaintenance folder!
 MaintenanceServerIcon: false
 #

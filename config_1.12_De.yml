@@ -26,6 +26,29 @@ PrefixStyle: 1
 # 5 = Dunkelrot/Dunkelgrün --- Weihnachts Style
 MessagesStyle: 1
 #
+GUI:
+  #
+  # Öffne das GUI mit /em. Das ist ein einfacher Weg um das Plugin zu steuern.
+  Enabled: true
+  #
+  # 0 = Weiß
+  # 1 = Orange
+  # 2 = Magenta
+  # 3 = Hellblau
+  # 4 = Gelb
+  # 5 = Hellgrün
+  # 6 = Rosa
+  # 7 = Grau
+  # 8 = Hellgrau
+  # 9 = Türkis
+  # 10 = Violett
+  # 11 = Blau   
+  # 12 = Braun
+  # 13 = Grün
+  # 14 = Rot
+  # 15 = Schwarz
+  DesignItemColor: 7
+#
 # Wenn es auf true ist, kannst du eine "maintenance-icon.png" Datei in deinen plugins/EasyMaintenance Ordner reinlegen.
 MaintenanceServerIcon: true
 #
