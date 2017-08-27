@@ -138,6 +138,17 @@ Messages:
     Line4: '&7&l| &6&lmaintenance in our forum: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
+  GUI:
+    GreenStatusItemName: '&2&lNormal Mode'
+    RedStatusItemName: '&4&lMaintenance Mode'
+    ButtonStartItemName: '&a&lStart Maintenance'
+    ButtonCloseItemName: '§4§lClose GUI'
+    ButtonStopItemName: '&c&lStop Maintenance'
+    ButtonCancelItemName: '&4&lCancel Maintenance'
+    ButtonSkipItemName: '&6&lSkip Maintenance'
+    ServerIsInMaintenance: '&4The Server is already in Maintenance!'
+    ServerIsNotInMaintenance: '&4The Server is not in Maintenance!'
+#
 # Customize all Sounds. Please use a sound from:
 # IN 1.8.x: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
 # IN 1.9.x - 1.12:  https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
@@ -152,3 +163,4 @@ Sounds:
   CountdownStopped: 'BLOCK_ANVIL_DESTROY:0.7'
   MaintenanceStart: 'Entity_Enderdragon_Death:1'
   MaintenanceEnd: 'ENTITY_WITHER_DEATH:0.5'
+  GUIClickSound: 'BLOCK_DISPENSER_FAIL:1.5'

@@ -145,6 +145,17 @@ Messages:
     Line4: '&7&l| &6&ldie Wartungsarbeiten in unserem Forum bekommen: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
+ GUI:
+    GreenStatusItemName: '&2&lNormaler Modus'
+    RedStatusItemName: '&4&lWartungsarbeiten Modus'
+    ButtonStartItemName: '&a&lStarte die Wartungsarbeiten'
+    ButtonCloseItemName: '§4§lSchließe das GUI'
+    ButtonStopItemName: '&c&lStoppe die Wartungsarbeiten'
+    ButtonCancelItemName: '&4&lBreche die Wartungsarbeiten ab'
+    ButtonSkipItemName: '&6&lÜberspringe den Wartungsarbeiten Countdown'
+    ServerIsInMaintenance: '&4Der Server ist schon in Wartungsarbeiten!'
+    ServerIsNotInMaintenance: '&4Der Server ist nicht in Wartungsarbeiten!'
+#
 # Individualisiere alle Sounds. Bitte nutze einen von:
 # IN 1.8.x: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
 # IN 1.9.x - 1.12:  https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
@@ -159,3 +170,4 @@ Sounds:
   CountdownStopped: 'BLOCK_ANVIL_DESTROY:0.7'
   MaintenanceStart: 'Entity_Enderdragon_Death:1'
   MaintenanceEnd: 'ENTITY_WITHER_DEATH:0.5'
+  GUIClickSound: 'BLOCK_DISPENSER_FAIL:1.5'
