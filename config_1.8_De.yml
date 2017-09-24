@@ -1,10 +1,16 @@
 # ##############################################################################
 # ############################# THANK YOU FOR USING ############################
-# ######################### EasyMaintenance BY LUC1412 ##########################
+# ######################### EasyMaintenance BY LUC1412 #########################
 # ##############################################################################
 # ################################ MAIN CONFIG #################################
 # ##############################################################################
 #
+#
+# WENN DU DAS AKTIVIERST FUNKTIONIERT DAS PLUGIN NICHT MEHR! COMMING SOON <3
+BungeeMode:
+  Enabled: false
+#  CommunicationPort: 1412
+#  CommunicationHost: 'localhost'
 #
 # Wenn es auf true ist überprüft das Plugin automatisch, ob eine neue Version verfügbar ist und benachrichtigt dich dann.
 Updater: true
@@ -52,7 +58,7 @@ GUI:
 # Wenn es auf true ist, kannst du eine "maintenance-icon.png" Datei in deinen plugins/EasyMaintenance Ordner reinlegen.
 MaintenanceServerIcon: true
 #
-# Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt. 
+# Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt.
 DefaultCountdown: 10
 #
 # Wenn es auf true ist kannst du in der Actionbar sehen wie lange es dauert bis die Wartungsarbeiten starten.
@@ -78,12 +84,6 @@ BossBarSettings:
   # SEGMENTED_12
   # SEGMENTED_20
   BossBarStyle: SEGMENTED_20
-  # Aktiviere die BossBar Flags
-  BossBarFlags:
-    # Wenn es auf true ist, entsteht Nebel um den Spielern.
-    CreateFog: false
-    # Wenn es auf true ist, verdunkelt sich der Himmel und den Spielern.
-    DarkenSky: false
 #
 # Personalisiere alle Nachrichten. Du kannst &-Farbcodes verwenden:
 # &0 - Schwarz
@@ -110,11 +110,11 @@ BossBarSettings:
 # &r – Farbcodes zurücksetzen
 Messages:
   ReloadConfig: '&2Die Config würde erfolgreich neu geladen!'
-  Usage: '&4Bitte nutze /EasyMaintenance hell für Hilfe!'
+  Usage: '&4Bitte nutze /EasyMaintenance help für Hilfe!'
   NoPermission: '&4Du hast keine Rechte dieses Kommando auszuführen!'
   KickMessage: '&4Der Server ist derzeit in Wartungsarbeiten!'
   InvalidNumber: '&4Die Zahl ist ungültig!'
-  ToggleOn: '&6The Server ist nun in Wartungsarbeiten! &4Nur Spieler mit den „em.bypass“ Rechten können noch auf den Server!'
+  ToggleOn: '&6Der Server ist nun in Wartungsarbeiten! &4Nur Spieler mit den „em.bypass“ Rechten können noch auf den Server!'
   ToggleOff: '&6Der Server ist nun wieder im normalen Modus! &4Alle Spieler können nun auf den Server kommen!'
   SkipTimeToHigh: '&4Die Skip Zeit ist höher als der Countdown!'
   # In TimeWasSkipped kannst du %seconds% nutzen. Es wird mit den Sekunden die übersprungen werden ersetzt.
@@ -130,7 +130,7 @@ Messages:
       CountdownStopped: '&4Der Countdown für die Wartungsarbeiten wurde gestoppt!'
 # In CountdownMinutes/Seconds/Seconds1 kannst du %time% nutzen. Es wird mit den Sekunden bis der Countdown startet ersetzt.
       CountdownMinutes: '&eDie Wartungsarbeiten starten in&6 %time% &eMinuten!'
-      CountdownSeconds: '&eDie Wartungsarbeiten starten in&6 %time% & Sekunden!'
+      CountdownSeconds: '&eDie Wartungsarbeiten starten in&6 %time% &eSekunden!'
       CountdownSeconds1: '&eDie Wartungsarbeiten starten in&6 %time% &eSekunden!'
 #
   ActionBar:
@@ -145,11 +145,11 @@ Messages:
     Line4: '&7&l| &6&ldie Wartungsarbeiten in unserem Forum bekommen: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
- GUI:
+  GUI:
     GreenStatusItemName: '&2&lNormaler Modus'
     RedStatusItemName: '&4&lWartungsarbeiten Modus'
     ButtonStartItemName: '&a&lStarte die Wartungsarbeiten'
-    ButtonCloseItemName: '§4§lSchließe das GUI'
+    ButtonCloseItemName: '&4&lSchließe das GUI'
     ButtonStopItemName: '&c&lStoppe die Wartungsarbeiten'
     ButtonCancelItemName: '&4&lBreche die Wartungsarbeiten ab'
     ButtonSkipItemName: '&6&lÜberspringe den Wartungsarbeiten Countdown'

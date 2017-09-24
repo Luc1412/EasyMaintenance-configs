@@ -1,9 +1,16 @@
 # ##############################################################################
 # ############################# THANK YOU FOR USING ############################
-# ######################### EasyMaintenance BY LUC1412 ##########################
+# ######################### EasyMaintenance BY LUC1412 #########################
 # ##############################################################################
 # ################################ MAIN CONFIG #################################
 # ##############################################################################
+#
+#
+# IF YOU ENABLE IT THE PLUGIN DIDN'T WORK!! COMMING SOON
+BungeeMode:
+  Enabled: false
+#  CommunicationPort: 1412
+#  CommunicationHost: 'localhost'
 #
 # If its true, its automatically check for a new Version of this Plugin and notice you.
 Updater: true
@@ -11,7 +18,7 @@ Updater: true
 DebugLog: false
 #
 # Set the Style of the Prefix.
-# 1 = "&8|&1Easy&4Maintenance&8| &3->&r "
+# 1 = "&8|&1Easy&4Maintenance&8| &3&l-> &r"
 # 2 = "&7[&1Easy&4Maintenance&7]&r "
 # 3 = "&7(&1Easy&4Maintenance&7)&r "
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
@@ -49,7 +56,7 @@ GUI:
   DesignItemColor: 7
 #
 # If its true, you can put a "maintenance-icon.png" in your plugins/EasyMaintenance folder!
-MaintenanceServerIcon: false
+MaintenanceServerIcon: true
 #
 # Set the default Countdown in Seconds if you didn´t add arguments in your command. If you use only /EasyMaintenance toggle.
 DefaultCountdown: 10
@@ -151,7 +158,7 @@ Messages:
 #
 # Customize all Sounds. Please use a sound from:
 # IN 1.8.x: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
-# IN 1.9.x - 1.12:  https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# IN 1.9.x - 1.12.x:  https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
 # It isn´t case-sensitive.
 # The 2nd parameter is the pitch/speed of the sound.
 # 1 = normal Speed
