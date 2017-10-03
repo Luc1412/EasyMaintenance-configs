@@ -35,6 +35,7 @@ MessagesStyle: 1
 GUI:
   #
   # Open the GUI with /em. This is an easy way to control the plugin.
+  # !!!THIS FEATURE IS ONLY IN 1.9+ AVAILABLE!!!
   Enabled: true
   #
   # 0 = White
@@ -140,9 +141,9 @@ Messages:
 #
   ListHoverText:
     Line1: '&7&l«======================================»'
-    Line2: '&7&l| &6&lThe Server is currently in &4&lMaintenance      &7&l|'
-    Line3: '&7&l| &6&lYou can get informations about the           &7&l|'
-    Line4: '&7&l| &6&lmaintenance in our forum: &9&lforum.luc1412.net &7&l|'
+    Line2: '&7&l| &3&lThe Server is currently in &4&lMaintenance      &7&l|'
+    Line3: '&7&l| &3&lYou can get informations about the           &7&l|'
+    Line4: '&7&l| &3&lmaintenance in our forum: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
   GUI:

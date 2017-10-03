@@ -22,6 +22,7 @@ DebugLog: false
 # 2 = "&7[&1Easy&4Maintenance&7]&r "
 # 3 = "&7(&1Easy&4Maintenance&7)&r "
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
+# 5 = Custom Prefix (Only Donator
 PrefixStyle: 1
 #
 # Set the Style of the messages.
@@ -35,6 +36,7 @@ MessagesStyle: 1
 GUI:
   #
   # Open the GUI with /em. This is an easy way to control the plugin.
+  # !!!THIS FEATURE IS ONLY IN 1.9+ AVAILABLE!!!
   Enabled: true
   #
   # 0 = White
@@ -140,16 +142,16 @@ Messages:
 #
   ListHoverText:
     Line1: '&7&l«======================================»'
-    Line2: '&7&l| &6&lThe Server is currently in &4&lMaintenance      &7&l|'
-    Line3: '&7&l| &6&lYou can get informations about the           &7&l|'
-    Line4: '&7&l| &6&lmaintenance in our forum: &9&lforum.luc1412.net &7&l|'
+    Line2: '&7&l| &3&lThe Server is currently in &4&lMaintenance      &7&l|'
+    Line3: '&7&l| &3&lYou can get informations about the           &7&l|'
+    Line4: '&7&l| &3&lmaintenance in our forum: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
   GUI:
     GreenStatusItemName: '&2&lNormal Mode'
     RedStatusItemName: '&4&lMaintenance Mode'
     ButtonStartItemName: '&a&lStart Maintenance'
-    ButtonCloseItemName: '§4§lClose GUI'
+    ButtonCloseItemName: '&4&lClose GUI'
     ButtonStopItemName: '&c&lStop Maintenance'
     ButtonCancelItemName: '&4&lCancel Maintenance'
     ButtonSkipItemName: '&6&lSkip Maintenance'

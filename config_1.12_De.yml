@@ -35,6 +35,7 @@ MessagesStyle: 1
 GUI:
   #
   # Öffne das GUI mit /em. Das ist ein einfacher Weg um das Plugin zu steuern.
+  # !!!DIESE FUNKTION IST NUR IN DER 1.9+ VERFÜGBAR!!!
   Enabled: true
   #
   # 0 = Weiß
@@ -48,7 +49,7 @@ GUI:
   # 8 = Hellgrau
   # 9 = Türkis
   # 10 = Violett
-  # 11 = Blau   
+  # 11 = Blau
   # 12 = Braun
   # 13 = Grün
   # 14 = Rot
@@ -140,9 +141,9 @@ Messages:
 #
   ListHoverText:
     Line1: '&7&l«======================================»'
-    Line2: '&7&l| &6&lDer Server ist derzeit in &4&lWartungsarbeiten                        &7&l|'
-    Line3: '&7&l| &6&lDu kannst Informationen über                                      &7&l|'
-    Line4: '&7&l| &6&ldie Wartungsarbeiten in unserem Forum bekommen: &9&lforum.luc1412.net &7&l|'
+    Line2: '&7&l| &3&lDer Server ist derzeit in &4&lWartungsarbeiten                        &7&l|'
+    Line3: '&7&l| &3&lDu kannst Informationen über                                      &7&l|'
+    Line4: '&7&l| &3&ldie Wartungsarbeiten in unserem Forum bekommen: &9&lforum.luc1412.net &7&l|'
     Line5: '&7&l«======================================»'
 #
   GUI:
