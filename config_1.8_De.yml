@@ -6,7 +6,7 @@
 # ##############################################################################
 #
 #
-# WENN DU DAS AKTIVIERST FUNKTIONIERT DAS PLUGIN NICHT MEHR! COMMING SOON <3
+# WENN DU DAS AKTIVIERST FUNKTIONIERT DAS PLUGIN NICHT MEHR! COMING SOON <3
 BungeeMode:
   Enabled: false
 #  CommunicationPort: 1412
@@ -17,11 +17,12 @@ Updater: true
 #
 DebugLog: false
 #
-# Setzte die Art des Präfixes!
+# Setzte die Art des Prefixes!
 # 1 = "&8|&1Easy&4Maintenance&8| &3->&r "
 # 2 = "&7[&1Easy&4Maintenance&7] &r "
 # 3 = "&7(&1Easy&4Maintenance&7) &r "
 # 4 = "&2【&1Easy&4Maintenance&2】&r "
+# 5 = Eigener Prefix (Nur für die Donator Version)
 PrefixStyle: 1
 #
 # Setzte den Style der Nachrichten!
@@ -29,7 +30,7 @@ PrefixStyle: 1
 # 2 = Dunkelblau/Dunkelrot --- Der EasyMaintenance Style
 # 3 = Schwarz/Dunkelrot --- Modern and Mächtig
 # 4 = Dunkelblau/Dunkelgrün --- Modern and Entspannt
-# 5 = Dunkelrot/Dunkelgrün --- Weihnachts Style
+# 5 = Dunkelrot/Dunkelgrün --- Weihnacht Style
 MessagesStyle: 1
 #
 GUI:
@@ -59,7 +60,7 @@ GUI:
 # Wenn es auf true ist, kannst du eine "maintenance-icon.png" Datei in deinen plugins/EasyMaintenance Ordner reinlegen.
 MaintenanceServerIcon: true
 #
-# Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggel nutzt.
+# Setzte den Standard Countdown in Sekunden, wenn du keine Argumente hinzufügst. Wenn du nur /EasyMaintenance toggele nutzt.
 DefaultCountdown: 10
 #
 # Wenn es auf true ist kannst du in der Actionbar sehen wie lange es dauert bis die Wartungsarbeiten starten.
@@ -124,6 +125,8 @@ Messages:
   BossBar: '&6&lDie Wartungsarbeiten starten in %ftime%'
   ServerPingName: '&1&lEasy&4&lMaintenance'
   MaintenanceMOTD: '&4&lDer Server ist derzeit in &1&lEasy&4&lMaintenance&4&l!'
+  # In CooldownMessage kannst du %seconds% nutzen. Es wird mit der Zeit bis der Spieler den Command wiederholt eingeben kann ersetzt.
+  CooldownMessage: 'Du musst %seconds% Sekunden warten bis du diesen Command wiederholt eingeben kannst!'
 #
   Countdown:
       CountdownIsNotRunning: '&4Der Countdown läuft derzeit nicht!'
