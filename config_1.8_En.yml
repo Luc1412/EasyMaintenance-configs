@@ -172,7 +172,7 @@ Messages:
 # You must use it so: 'Your_Sound:Pitch'
 Sounds:
   CountdownRunning: 'ORB_PICKUP:0.5'
-  CountdownStopped: 'ANVIL_DESTROY:0.7'
+  CountdownStopped: 'ANVIL_BREAK:0.7'
   MaintenanceStart: 'Enderdragon_Death:1'
   MaintenanceEnd: 'WITHER_DEATH:0.5'
-  GUIClickSound: 'DISPENSER_FAIL:1.5'
+  GUIClickSound: 'CLICK:1.5'
