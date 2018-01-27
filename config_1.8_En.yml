@@ -115,6 +115,7 @@ Messages:
   Usage: '&4Please use /EasyMaintenance help for help!'
   NoPermission: '&4You don´t have Permissions to perform this command!'
   KickMessage: '&4The Server ist currently in maintenance!'
+  MaintenanceJoinMessage: '&4&l!Warning! &eThe server is currently in &4&lmaintenance&e. Only team member can join currently!'
   InvalidNumber: '&4The number is invalid!'
   ToggleOn: '&6The Server is now in Maintenance! &4Only Player with the "em.bypass" can now join!'
   ToggleOff: '&6The Server is now in the NormalMode! &4All Player can now Join!'
@@ -126,7 +127,7 @@ Messages:
   ServerPingName: '&1&lEasy&4&lMaintenance'
   MaintenanceMOTD: '&4&lThe Server is currently in &1&lEasy&4&lMaintenance&4&l!'
   # In BossBar you can use %seconds%. It will replaced with the seconds until the player can use the command again.
-  CooldownMessage: 'You must wait %seconds% seconds until you can perform this de.luc1412.skull.commands again!'
+  CooldownMessage: '&4You must wait &e%seconds% seconds &4until you can perform this commands again!'
 #
   Countdown:
       CountdownIsNotRunning: '&4The countdown is not currently running!'
@@ -171,7 +172,7 @@ Messages:
 # You must use it so: 'Your_Sound:Pitch'
 Sounds:
   CountdownRunning: 'ORB_PICKUP:0.5'
-  CountdownStopped: 'ANVIL_DESTROY:0.7'
+  CountdownStopped: 'ANVIL_BREAK:0.7'
   MaintenanceStart: 'Enderdragon_Death:1'
   MaintenanceEnd: 'WITHER_DEATH:0.5'
-  GUIClickSound: 'DISPENSER_FAIL:1.5'
+  GUIClickSound: 'CLICK:1.5'

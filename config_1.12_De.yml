@@ -115,6 +115,7 @@ Messages:
   Usage: '&4Bitte nutze /EasyMaintenance help für Hilfe!'
   NoPermission: '&4Du hast keine Rechte dieses Kommando auszuführen!'
   KickMessage: '&4Der Server ist derzeit in Wartungsarbeiten!'
+  MaintenanceJoinMessage: '&4&l!Achtung! &eDer Server ist derzeit in &4&lWartungsarbeiten&e. Es können derzeit nur Teammitglieder joinen!'
   InvalidNumber: '&4Die Zahl ist ungültig!'
   ToggleOn: '&6Der Server ist nun in Wartungsarbeiten! &4Nur Spieler mit den „em.bypass“ Rechten können noch auf den Server!'
   ToggleOff: '&6Der Server ist nun wieder im normalen Modus! &4Alle Spieler können nun auf den Server kommen!'
@@ -126,7 +127,7 @@ Messages:
   ServerPingName: '&1&lEasy&4&lMaintenance'
   MaintenanceMOTD: '&4&lDer Server ist derzeit in &1&lEasy&4&lMaintenance&4&l!'
   # In CooldownMessage kannst du %seconds% nutzen. Es wird mit der Zeit bis der Spieler den Command wiederholt eingeben kann ersetzt.
-  CooldownMessage: 'Du musst %seconds% Sekunden warten bis du diesen Command wiederholt eingeben kannst!'
+  CooldownMessage: '&4Du musst &e%seconds% Sekunden &4warten bis du diesen Command wiederholt eingeben kannst!'
 #
   Countdown:
       CountdownIsNotRunning: '&4Der Countdown läuft derzeit nicht!'
