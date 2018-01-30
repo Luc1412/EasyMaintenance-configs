@@ -33,6 +33,9 @@ PrefixStyle: 1
 # 5 = Dunkelrot/Dunkelgrün --- Weihnachts Style
 MessagesStyle: 1
 #
+# Spiel Musik, wenn du /EasyMaintenance eingibst
+PlayMusic: true
+#
 GUI:
   #
   # Öffne das GUI mit /em. Das ist ein einfacher Weg um das Plugin zu steuern.
